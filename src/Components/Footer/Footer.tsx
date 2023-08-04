@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledFooter = styled.footer`
-  margin-top: 20px;
+  margin-top: 50px;
 `;
 interface iDeveloperName {
   text: string;
