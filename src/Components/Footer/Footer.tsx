@@ -1,17 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledFooter = styled.footer`
   margin-top: 20px;
 `;
 interface iDeveloperName {
-    text: string;
-  }
-
-const Footer: React.FC<iDeveloperName> = ({text}) => {
-  return (
-    <StyledFooter>{`Developed by ${text}`}</StyledFooter>
-  )
+  text: string;
 }
 
-export { Footer }
+const Footer: React.FC<iDeveloperName> = ({ text }) => {
+  return <StyledFooter>{`Developed by ${text}`}</StyledFooter>;
+};
+
+export { Footer };
